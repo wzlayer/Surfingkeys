@@ -644,7 +644,7 @@ mapkey(';i', '#14Insert jquery library on current page', function() {
     Normal.insertJS("//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js");
 });
 mapkey(';t', 'Translate selected text with google', function() {
-    searchSelectedWith('https://translate.google.com/?hl=en#auto/en/', false, false, '');
+    searchSelectedWith('https://translate.google.com/?hl=en#auto/zh-CN/', false, false, '');
 });
 mapkey(';dh', '#14Delete history older than 30 days', function() {
     RUNTIME('deleteHistoryOlderThan', {
